@@ -1,0 +1,12 @@
+.header {
+	padding: 52px 0;
+	background: var(--color-dark-blue);
+	text-align: center;
+}
+
+@media (max-width: 1024px) {
+	.header {
+		padding: 40px 0;
+		text-align: left;
+	}
+}

@@ -1,0 +1,10 @@
+.cta {
+	background: var(--color-blue);
+	padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+	.cta p {
+		font-size: 14px;
+	}
+}

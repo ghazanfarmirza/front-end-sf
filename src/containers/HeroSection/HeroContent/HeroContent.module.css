@@ -1,0 +1,27 @@
+.hero_inner {
+	height: calc(830px - 72px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+}
+
+@media (max-width: 768px) {
+	.hero_inner {
+		height: calc(860px - 72px);
+	}
+}
+
+/* a class with line height 84px and  for mobile 72 px  */
+.hero_heading {
+	font-size: 56px;
+	line-height: 84px;
+	font-weight: 700;
+}
+@media (max-width: 768px) {
+	.hero_heading {
+		font-size: 48px;
+		line-height: 72px;
+	}
+}

@@ -1,0 +1,10 @@
+.hero {
+	padding: 72px 0;
+	background-color: var(--color-dark-blue);
+}
+
+@media (max-width: 1024px) {
+	.hero {
+		padding: 56px 0;
+	}
+}

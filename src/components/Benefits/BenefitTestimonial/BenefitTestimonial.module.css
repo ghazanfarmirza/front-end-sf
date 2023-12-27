@@ -1,0 +1,58 @@
+.testimonial {
+	padding: 80px;
+	text-align: center;
+	width: 350px;
+}
+
+.testimonial p {
+	font-size: 18px;
+}
+
+.left {
+	background: url('/images/cloud2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.left::after {
+	content: '';
+	position: absolute;
+	bottom: -24px;
+	right: 0;
+	background: url('/images/cloud-dot1.png');
+	background-size: contain;
+	width: 58px;
+	height: 52px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.center {
+	background: url('/images/cloud2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.right {
+	background: url('/images/cloud2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.right::after {
+	content: '';
+	position: absolute;
+	bottom: -24px;
+	left: 0;
+	background: url('/images/cloud-dot2.png');
+	background-size: contain;
+	width: 58px;
+	height: 52px;
+	background-repeat: no-repeat;
+	background-position: center;
+}

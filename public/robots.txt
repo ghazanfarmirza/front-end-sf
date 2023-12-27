@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Disallow: /
+
+# Host
+Host: https://softwarefinder.netlify.app
+
+# Sitemaps
+Sitemap: https://softwarefinder.netlify.app/sitemap.xml

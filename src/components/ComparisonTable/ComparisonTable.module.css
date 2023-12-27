@@ -1,0 +1,27 @@
+.table {
+	width: 100%;
+}
+
+.table thead tr {
+	width: 100%;
+	border: 1px solid var(--color-grey);
+}
+
+.table tr .border-td:first-child {
+	border-right: 1px solid black;
+}
+
+.table_head {
+	padding: 16px;
+	background: #fef2de;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+
+@media (max-width: 767px) {
+	.table {
+		font-size: 14px;
+	}
+}

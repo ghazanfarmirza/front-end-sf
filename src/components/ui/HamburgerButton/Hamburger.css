@@ -1,0 +1,90 @@
+.btn11 {
+	position: relative;
+	width: 30px;
+	height: 28px;
+	top: 0;
+	right: 0;
+	transition-duration: 0.5s;
+	z-index: 999;
+}
+.icon_left {
+	transition-duration: 0.5s;
+	position: absolute;
+	height: 4px;
+	width: 15px;
+	top: 12px;
+	background-color: #fff;
+}
+.icon_left:before {
+	transition-duration: 0.5s;
+	position: absolute;
+	width: 15px;
+	height: 4px;
+	background-color: #fff;
+	content: '';
+	top: -10px;
+}
+.icon_left:after {
+	transition-duration: 0.5s;
+	position: absolute;
+	width: 15px;
+	height: 4px;
+	background-color: #fff;
+	content: '';
+	top: 10px;
+}
+.icon_left:hover {
+	cursor: pointer;
+}
+.icon_right {
+	transition-duration: 0.5s;
+	position: absolute;
+	height: 4px;
+	width: 15px;
+	top: 12px;
+	background-color: #fff;
+	left: 15px;
+}
+.icon_right:before {
+	transition-duration: 0.5s;
+	position: absolute;
+	width: 15px;
+	height: 4px;
+	background-color: #fff;
+	content: '';
+	top: -10px;
+}
+.icon_right:after {
+	transition-duration: 0.5s;
+	position: absolute;
+	width: 15px;
+	height: 4px;
+	background-color: #fff;
+	content: '';
+	top: 10px;
+}
+
+.btn11:hover {
+	cursor: pointer;
+}
+
+.open .icon_left {
+	transition-duration: 0.5s;
+	background: transparent;
+}
+.open .icon_left:before {
+	transform: rotateZ(45deg) scaleX(1.4) translate(2px, 2px);
+}
+.open .icon_left:after {
+	transform: rotateZ(-45deg) scaleX(1.4) translate(2px, -2px);
+}
+.open .icon_right {
+	transition-duration: 0.5s;
+	background: transparent;
+}
+.open .icon_right:before {
+	transform: rotateZ(-45deg) scaleX(1.4) translate(-2px, 2px);
+}
+.open .icon_right:after {
+	transform: rotateZ(45deg) scaleX(1.4) translate(-2px, -2px);
+}

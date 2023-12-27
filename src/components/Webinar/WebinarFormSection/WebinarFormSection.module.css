@@ -1,0 +1,14 @@
+.section {
+	padding: 48px 0 86px;
+	background-color: var(--color-dark-blue);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@media (max-width: 1024px) {
+	.section {
+		background: var(--color-dark-blue);
+		padding: 56px 0;
+	}
+}

@@ -1,0 +1,17 @@
+.box {
+	border-radius: 16px;
+	border: 1px solid #c1c1c1;
+	padding: 32px;
+}
+
+.border {
+	border-right: 1px solid #c1c1c1;
+}
+
+.info {
+	padding: 4px 16px 4px 16px;
+	font-size: 8px;
+	box-shadow: 0px 0px 10px 0px #00000014;
+	text-align: right;
+	margin-bottom: 8px;
+}

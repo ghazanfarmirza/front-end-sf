@@ -1,0 +1,33 @@
+.list_item {
+	padding: 10px 0;
+	position: relative;
+}
+
+.list_item:hover::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 5px;
+	width: 100%;
+	background-color: var(--color-green);
+}
+
+@media (max-width: 1024px) {
+	.lists {
+		display: flex;
+		overflow-x: auto;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	/* Hide scrollbar for Chrome, Safari, and Opera */
+	.lists::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Hide scrollbar for Firefox */
+	.lists {
+		scrollbar-width: none;
+	}
+}

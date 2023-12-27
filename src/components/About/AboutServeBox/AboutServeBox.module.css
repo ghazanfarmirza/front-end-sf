@@ -1,0 +1,18 @@
+.box {
+	border: 1px solid #c8c8c8;
+	border-radius: 6px;
+	padding: 36px 50px 36px 30px;
+	background-color: #fff;
+}
+
+.box:nth-child(2) {
+	background-color: var(--color-green);
+	border-color: var(--color-green);
+}
+
+.box:nth-child(2) a svg {
+	filter: brightness(0);
+}
+.box:nth-child(2):active {
+	color: white;
+}

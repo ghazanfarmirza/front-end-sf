@@ -1,0 +1,43 @@
+:root {
+	--color-green: #9abf14;
+	--color-blue: #47597e;
+	--color-black: #10292d;
+	--color-grey: #c1c1c1;
+	--color-white: #ffffff;
+	--color-dark-green: #748f0f;
+	--color-dark-blue: #00424b;
+	--color-light-white: #fbf7ef;
+	--color-light-green: #ebf5eb;
+	--color-light-blue: #e7f2f3;
+	--color-light-grey: #d4d4d4;
+	--color-light-grey2: #a5a5a5;
+	--color-orange: #faa40f;
+}
+
+.p3 {
+	font-size: 1.25rem;
+}
+
+.p2 {
+	font-size: 1.125rem;
+}
+
+.text-small {
+	font-size: 12px;
+}
+
+.text-xsmall {
+	font-size: 10px;
+}
+
+.link-focus:focus-visible {
+	outline: solid var(--color-green);
+}
+
+.text-light-color {
+	color: rgba(16, 41, 45, 0.65);
+}
+
+.text-grey2 {
+	color: #939393;
+}

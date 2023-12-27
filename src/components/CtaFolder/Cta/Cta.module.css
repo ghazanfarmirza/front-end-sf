@@ -1,0 +1,43 @@
+.cta {
+	background: url('/images/cta.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 48px 0;
+	border-radius: 18px;
+}
+
+.arrow {
+	position: relative;
+	margin-left: 80px;
+	padding-right: 164px;
+}
+
+.arrow::after {
+	content: '';
+	position: absolute;
+	background: url('/images/dotted-arrow.png');
+	width: 200px;
+	height: 275px;
+	background-size: contain;
+	background-position: center;
+	top: 50%;
+	transform: translate(0, -50%);
+	right: -30px;
+}
+
+@media (max-width: 1024px) {
+	.cta {
+		padding: 48px 36px;
+	}
+
+	.arrow {
+		position: relative;
+		margin-left: 0;
+		padding-right: 0;
+	}
+
+	.arrow::after {
+		display: none;
+	}
+}

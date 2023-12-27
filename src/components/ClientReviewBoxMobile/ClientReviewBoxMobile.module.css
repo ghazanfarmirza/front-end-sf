@@ -1,0 +1,17 @@
+.box {
+	padding: 32px 60px;
+	border-radius: 16px;
+	border: 1px solid #c1c1c1;
+}
+
+.border {
+	border-top: 1px solid #c1c1c1;
+	border-bottom: 1px solid #c1c1c1;
+	padding: 24px 0;
+}
+
+@media (max-width: 767px) {
+	.box {
+		padding: 0px;
+	}
+}

@@ -1,0 +1,14 @@
+.input {
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 16px;
+	color: var(--color-black);
+}
+
+.input::placeholder {
+	color: rgba(16, 41, 45, 0.45);
+}
+
+.input:focus {
+	outline: none;
+}

@@ -1,0 +1,38 @@
+.TabsRoot {
+	display: flex;
+	flex-direction: column;
+}
+
+.TabsList {
+	flex-shrink: 0;
+	display: flex;
+}
+
+.TabsTrigger {
+	padding: 0 10px;
+	height: 45px;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	color: #10292d;
+	user-select: none;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.TabsTrigger[data-state='active'] {
+	border-top: 1px solid #d3d3d3;
+	border-left: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+	border-bottom: none;
+	font-weight: 500;
+}
+
+.TabsContent {
+	flex-grow: 1;
+	padding: 40px 0;
+	outline: none;
+}

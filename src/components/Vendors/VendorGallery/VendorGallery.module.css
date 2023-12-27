@@ -1,0 +1,27 @@
+.gallery_thumb {
+	padding: 20px;
+	border-radius: 6px;
+	border: 1px solid rgba(16, 41, 45, 0.25);
+}
+
+.gallery_list {
+	border: 1px solid rgba(16, 41, 45, 0.25);
+	border-radius: 6px;
+	margin-top: 16px;
+}
+
+.gallery_slider {
+	padding: 20px 0 !important;
+}
+.image_container {
+	position: relative;
+	display: inline-block;
+}
+
+.icon_overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1; /* Ensure the icon is above the image */
+}

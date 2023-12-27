@@ -1,0 +1,22 @@
+.hero {
+	min-height: 790px;
+	background: var(--color-dark-blue);
+	color: var(--color-white);
+	position: relative;
+}
+@media (max-width: 768px) {
+	.hero {
+		min-height: 860px;
+	}
+}
+
+.hero::after {
+	position: absolute;
+	inset: 0;
+	background: url('/images/bg-square.svg');
+	content: '';
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+}

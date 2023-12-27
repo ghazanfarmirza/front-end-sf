@@ -1,0 +1,30 @@
+.image {
+	width: 60px;
+	height: 60px;
+	background-color: var(--color-green);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -50%);
+}
+
+.box {
+	background-color: #fbfbfb;
+	border-radius: 8px;
+	padding: 40px 32px 32px;
+	text-align: center;
+}
+
+.contact_box {
+	position: relative;
+}
+
+@media (max-width: 768px) {
+	.box {
+		background-color: #ebf5eb;
+	}
+}

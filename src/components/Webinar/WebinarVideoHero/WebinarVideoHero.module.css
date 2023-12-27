@@ -1,0 +1,18 @@
+.hero {
+	padding: 72px 0 280px 0;
+	background: var(--color-dark-blue);
+}
+
+.heading {
+	width: 720px;
+}
+
+@media (max-width: 1024px) {
+	.hero {
+		padding: 56px 0;
+	}
+
+	.heading {
+		width: unset;
+	}
+}

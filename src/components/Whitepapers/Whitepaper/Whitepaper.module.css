@@ -1,0 +1,14 @@
+.whitepaper {
+	padding: 30px;
+	border: 1px solid var(--color-grey);
+	border-radius: 12px;
+	max-width: 1060px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.whitepaper a {
+	position: absolute;
+	right: 24px;
+	bottom: 24px;
+}

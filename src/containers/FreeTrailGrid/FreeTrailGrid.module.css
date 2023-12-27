@@ -1,0 +1,24 @@
+.image {
+	width: 180px;
+	height: 40px;
+	object-fit: contain;
+	object-position: center;
+}
+
+.grid_box:not(:last-child) {
+	border-right: 1px solid #c8c8c8;
+}
+
+.wrapper {
+	padding: 72px 0;
+}
+
+@media (max-width: 1024px) {
+	.wrapper {
+		padding: 56px 0;
+	}
+
+	.grid_box:not(:last-child) {
+		border-right: none;
+	}
+}

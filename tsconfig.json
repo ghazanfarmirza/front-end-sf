@@ -1,0 +1,46 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"paths": {
+			"@/*": ["./src/*"],
+			"@/components/*": ["./src/components/*"],
+			"@/containers/*": ["./src/containers/*"],
+			"@/ui/*": ["./src/components/ui/*"],
+			"@/lib/*": ["./src/lib/*"],
+			"@/styles/*": ["./src/styles/*"],
+			"@/images/*": ["../public/images/*"]
+		},
+		"plugins": [
+			{
+				"name": "next"
+			}
+		]
+	},
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		".next/types/**/*.ts",
+		"src/components/FaqBox/FaqBox.jsx",
+		"src/components/AccordionProduct/AccordionProduct.jsx",
+		"src/components/SortBox/SortBox.jsx",
+		"src/components/FaqBoxSmall/FaqBoxSmall.jsx",
+		"src/containers/Vendor/VendorFeatures/VendorFeatures.jsx",
+		"src/components/FooterMobileCollapse/FooterMobileCollapse.jsx",
+		"src/components/ui/Input/InputSelect/InputSelect.tsx"
+	],
+	"exclude": ["node_modules"]
+}

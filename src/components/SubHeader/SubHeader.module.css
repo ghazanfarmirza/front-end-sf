@@ -1,0 +1,12 @@
+.header {
+	background: #ebf5eb;
+	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 26px 80px;
+}
+
+@media (max-width: 1024px) {
+	.header {
+		padding: 24px 40px;
+	}
+}

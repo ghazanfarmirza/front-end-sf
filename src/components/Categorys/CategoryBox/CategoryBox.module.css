@@ -1,0 +1,33 @@
+.box {
+	padding: 20px 52px;
+	background: #f5f7ec;
+	border-radius: 12px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	gap: 16px;
+}
+
+.box:hover {
+	cursor: pointer;
+}
+
+.box img {
+	transition: transform 0.3s;
+	margin: 0 auto;
+	display: block;
+}
+
+.box:hover img {
+	transform: scale(1.35);
+}
+
+@media (max-width: 1024px) {
+	.box {
+		padding: 20px 72px;
+		flex: 1;
+		min-height: 150px;
+	}
+}

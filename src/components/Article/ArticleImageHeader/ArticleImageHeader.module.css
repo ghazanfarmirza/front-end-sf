@@ -1,0 +1,15 @@
+.box {
+	border-radius: 6px;
+	border: 1px solid #eaeaea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+}
+
+.box img {
+	width: 350px;
+	height: 48px;
+	object-fit: contain;
+	object-position: center;
+}

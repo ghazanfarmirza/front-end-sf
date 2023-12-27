@@ -1,0 +1,11 @@
+.banner {
+	border-radius: 32px;
+	background-color: #ebf5eb;
+	padding: 52px 104px;
+}
+
+@media (max-width: 767px) {
+	.banner {
+		padding: 52px 24px;
+	}
+}

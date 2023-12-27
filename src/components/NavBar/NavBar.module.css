@@ -1,0 +1,35 @@
+.link {
+	position: relative;
+	overflow: hidden;
+	color: var(--color-white);
+}
+
+.link::after {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	width: 42%;
+	height: 2px;
+	background-color: var(--color-green);
+	opacity: 1;
+	transform: translate3d(-102%, 2px, 0);
+	transition: opacity 300ms, transform 300ms;
+	left: 0;
+}
+
+.link:hover {
+	cursor: pointer;
+}
+
+.link:hover::after,
+.link:focus::after {
+	transform: translate3d(0, 2px, 0);
+}
+
+.link:focus {
+	outline: none;
+}
+
+.link:focus-within {
+	outline: none;
+}

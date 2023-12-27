@@ -1,0 +1,13 @@
+.list li {
+	position: relative;
+}
+
+.list li:not(:last-child)::after {
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 12px;
+	background-color: #fff;
+	top: 50%;
+	transform: translate(14px, -25%);
+}

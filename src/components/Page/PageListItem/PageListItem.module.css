@@ -1,0 +1,15 @@
+.item {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 12px;
+	list-style: none;
+	color: #c1c1c1;
+}
+
+.item_active {
+	color: var(--color-black);
+	font-weight: 600;
+	padding: 16px;
+	border-radius: 4px;
+	background-color: #ebf5eb;
+}

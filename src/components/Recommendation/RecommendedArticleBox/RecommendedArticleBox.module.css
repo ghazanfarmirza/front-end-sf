@@ -1,0 +1,23 @@
+.imageBox {
+	width: 435px;
+	height: 265px;
+}
+
+.image {
+	height: 265px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 40px;
+	border-radius: 12px;
+	width: 435px;
+	margin: 0 auto;
+}
+
+.image img {
+	width: 360px;
+	height: 240px;
+	object-fit: contain;
+	object-position: center;
+}

@@ -1,0 +1,14 @@
+.box {
+	font-size: 38px;
+	font-weight: 500;
+	color: var(--color-green);
+	padding: 26px;
+	border-radius: 50%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	filter: drop-shadow(2px 3px 10px rgba(0, 0, 0, 0.1));
+}

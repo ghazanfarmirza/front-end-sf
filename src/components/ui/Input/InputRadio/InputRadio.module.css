@@ -1,0 +1,56 @@
+.box {
+	padding: 16px 32px;
+	/* background: #c1c1c1; */
+	border: 1px solid #c1c1c1;
+	max-width: 420px;
+	border-radius: 6px;
+}
+
+.RadioGroupRoot {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.RadioGroupItem {
+	background-color: white;
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+	all: unset;
+}
+
+.RadioGroupIndicator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.RadioGroupIndicator::after {
+	content: '';
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+}
+.RadioGroupIndicator:hover {
+	background-color: #219202;
+}
+
+.Label {
+	color: var(--color-black);
+	font-size: 15px;
+	line-height: 20px;
+	padding-left: 12px;
+}
+
+@media (max-width: 1024px) {
+	.box {
+		padding: 16px;
+		max-width: unset;
+	}
+}

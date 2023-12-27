@@ -1,0 +1,21 @@
+.item {
+	padding: 12px 0;
+}
+
+.item:first-child {
+	padding-top: 0;
+}
+
+.item:last-child {
+	padding-bottom: 0;
+}
+
+.item:not(:last-child) {
+	border-bottom: 1px solid #c1c1c1;
+}
+
+@media (max-width: 767px) {
+	.item {
+		padding: 16px 0;
+	}
+}

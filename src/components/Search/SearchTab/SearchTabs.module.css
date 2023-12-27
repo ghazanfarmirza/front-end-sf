@@ -1,0 +1,35 @@
+.search_tab {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 500;
+	color: var(--color-black);
+	background-color: #fff;
+	border: 1px solid var(--color-black);
+	border-radius: 50px;
+	padding: 12px 36px;
+}
+
+.search_tab:hover {
+	background-color: var(--color-black);
+	color: var(--color-white);
+}
+
+.search_tab[data-type='active'] {
+	background-color: var(--color-black);
+	color: var(--color-white);
+}
+
+@media (max-width: 1024px) {
+	.search_tab {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 600;
+		color: var(--color-black);
+		background-color: #fff;
+		border: 1px solid var(--color-black);
+		border-radius: 50px;
+		padding: 12px;
+		width: 100%;
+		text-align: center;
+	}
+}

@@ -1,0 +1,23 @@
+.comma {
+	position: relative;
+}
+
+.comma::before {
+	content: '';
+	position: absolute;
+	top: -15px;
+	right: 0;
+	background-size: contain;
+	background: url('/images/comma.svg');
+	width: 15px;
+	height: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.box {
+	border-radius: 16px;
+	border: 1px solid #c1c1c1;
+	background: #fff;
+	padding: 32px 24px;
+}

@@ -1,0 +1,19 @@
+.box {
+	background: #ffffff;
+	border: 1px solid #c1c1c1;
+	border-radius: 12px;
+	padding: 30px 36px;
+}
+
+.image {
+	max-width: 320px;
+	height: 200px;
+	margin: 0 auto 30px;
+}
+
+.image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+}

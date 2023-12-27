@@ -1,0 +1,16 @@
+.comma {
+	position: relative;
+}
+
+.comma::before {
+	content: '';
+	position: absolute;
+	top: -19px;
+	left: -15px;
+	background-size: contain;
+	background: url('/images/comma.svg');
+	width: 15px;
+	height: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+}

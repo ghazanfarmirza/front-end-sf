@@ -1,0 +1,30 @@
+.search {
+	position: relative;
+	width: 100%;
+	min-height: 48px;
+}
+
+.search input {
+	position: absolute;
+	inset: 0;
+	padding: 12px 12px 12px 48px;
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
+}
+
+.search input::placeholder {
+	color: #c1c1c1;
+}
+
+.search:focus,
+.search:focus-within {
+	outline: none;
+}
+
+.search svg {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translate(0, -50%);
+	stroke: #c1c1c1;
+}

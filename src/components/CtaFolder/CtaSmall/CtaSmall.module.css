@@ -1,0 +1,14 @@
+.cta {
+	background: url('/images/cta-small.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 46px 80px;
+	border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+	.cta {
+		padding: 40px 30px;
+	}
+}

@@ -1,0 +1,14 @@
+.box {
+	border-radius: 9px;
+	box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.1);
+	padding: 35px 26px;
+}
+
+.link_active {
+	padding: 6px 14px;
+	color: var(--color-black);
+	background-color: #ebf5eb;
+	border-radius: 4px;
+	font-weight: 600;
+	display: block;
+}

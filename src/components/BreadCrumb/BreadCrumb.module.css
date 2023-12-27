@@ -1,0 +1,14 @@
+.bread_crumb li {
+	position: relative;
+}
+
+.bread_crumb li:not(:last-child)::after {
+	position: absolute;
+	content: '>';
+	right: -15px;
+	top: 50%;
+	transform: translate(0, -45%);
+	color: var(--color-dark-blue);
+	font-size: 14px;
+	font-weight: 300;
+}

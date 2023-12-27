@@ -1,0 +1,50 @@
+.content {
+	margin-top: 30px;
+	padding: 50px 32px;
+	background-color: var(--color-white);
+	border-radius: 12px;
+	border: 1px solid rgba(16, 41, 45, 0.25);
+}
+
+.wrapper {
+	padding: 72px 0;
+	background-color: #fbf7ef;
+}
+
+.list {
+	margin-top: 28px;
+	color: var(--color-black);
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.tick {
+	width: 16px;
+	height: 16px;
+	background-color: var(--color-black);
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin-top: 4px;
+}
+
+.false {
+	width: 16px;
+	height: 16px;
+	background-color: var(--color-white);
+	border: 1px solid var(--color-black);
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin-top: 4px;
+}
+
+.border {
+	border-bottom: 1px solid rgba(16, 41, 45, 0.25);
+	padding-bottom: 30px;
+}

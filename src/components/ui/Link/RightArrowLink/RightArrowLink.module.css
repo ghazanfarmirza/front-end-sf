@@ -1,0 +1,21 @@
+.link {
+	color: var(--color-green);
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.link:hover img {
+	transition: all 0.6s ease-in-out;
+	transform: translateX(10px);
+}
+
+.small {
+	font-size: 10px;
+	color: var(--color-green);
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}

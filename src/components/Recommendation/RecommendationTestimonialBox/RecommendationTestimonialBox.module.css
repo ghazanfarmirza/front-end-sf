@@ -1,0 +1,30 @@
+.box {
+	background-color: var(--color-black);
+	padding: 60px 130px;
+	border-radius: 18px;
+	/* margin-top: 52px; */
+	max-width: 1096px;
+	margin: 52px auto 0;
+}
+.comma {
+	position: relative;
+}
+
+.comma::before {
+	content: '';
+	position: absolute;
+	top: -30px;
+	left: 0px;
+	background-size: contain;
+	background: url('/images/white-comma.svg');
+	width: 29px;
+	height: 21px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media (max-width: 1024px) {
+	.box {
+		padding: 50px 30px;
+	}
+}

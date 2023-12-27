@@ -1,0 +1,29 @@
+.image {
+	height: 200px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	padding: 30px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.image img {
+	width: 360px;
+	height: 240px;
+	object-fit: contain;
+	object-position: center;
+}
+.title {
+	font-size: 18px;
+}
+
+.box {
+	padding: 24px;
+	background-color: #fff;
+	border-radius: 12px;
+	border: 1px solid #c8c8c8;
+	min-height: 410px;
+}

@@ -1,0 +1,64 @@
+.wrapper {
+	padding: 52px 80px;
+}
+
+.arrows {
+	position: relative;
+}
+
+.arrows::before {
+	content: '';
+	position: absolute;
+	background: url('/images/arrow-recommendation.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 120px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nextButton {
+	min-width: 180px;
+	justify-content: center;
+	max-height: 40px;
+}
+.emailButton {
+	--tw-bg-opacity: 1;
+	background-color: rgb(16 41 45 / var(--tw-bg-opacity));
+	min-width: 240px;
+	justify-content: center;
+}
+
+.CheckboxRoot {
+	width: 24px;
+	height: 24px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--color-grey);
+	border-radius: 3px;
+}
+.CheckboxRoot:hover {
+	background-color: var(--violet3);
+}
+.CheckboxRoot:focus {
+	box-shadow: 0 0 0 1px var(--color-black);
+}
+
+.CheckboxIndicator {
+	color: var(--color-black);
+}
+
+@media (max-width: 1024px) {
+	.arrows::before {
+		display: none;
+	}
+	.wrapper {
+		padding: 50px 25px;
+		border-radius: 10px;
+	}
+}

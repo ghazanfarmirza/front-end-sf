@@ -1,0 +1,14 @@
+.box {
+	background: #ffffff;
+	border: 1px solid #e6e6e6;
+	border-radius: 20px;
+	padding: 40px 20px;
+}
+
+.threeLineEllipsis {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

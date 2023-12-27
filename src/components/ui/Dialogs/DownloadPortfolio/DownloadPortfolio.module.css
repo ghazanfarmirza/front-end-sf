@@ -1,0 +1,116 @@
+.DialogOverlay {
+	background-color: rgba(0, 0, 0, 0.447);
+	position: fixed;
+	inset: 0;
+	animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+	z-index: 999;
+}
+
+.DialogContent {
+	border-radius: 12px;
+	background: var(--white, #fff);
+	box-shadow: 2px 3px 20px 0px rgba(0, 0, 0, 0.15);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90vw;
+	max-width: 900px;
+	max-height: 650px;
+	animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+	z-index: 999;
+	overflow: hidden;
+}
+
+.DialogContent:focus {
+	outline: none;
+}
+
+.IconButton {
+	font-family: inherit;
+	border-radius: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 6px;
+	border: 2px solid #fff;
+}
+.IconButton:hover {
+	background-color: var(--violet-4);
+}
+.IconButton:focus {
+	box-shadow: 0 0 0 2px var(--violet-7);
+}
+
+.left {
+	padding: 52px 32px;
+	position: relative;
+	overflow: hidden;
+}
+
+.left::after {
+	content: '';
+	position: absolute;
+	width: 420px;
+	height: 420px;
+	background-color: #fff;
+	border: 1px solid #9abf14;
+	left: -50px;
+	bottom: -100px;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.right {
+	padding: 52px 46px;
+	background-color: var(--color-dark-blue);
+	border-radius: 0 12px 12px 0;
+}
+
+.Label {
+	font-size: 10px;
+}
+
+.CheckboxRoot {
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.CheckboxIndicator {
+	color: var(--color-black);
+}
+
+@keyframes overlayShow {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes contentShow {
+	from {
+		opacity: 0;
+		transform: translate(-50%, -48%) scale(0.96);
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+@media (max-width: 767px) {
+	.right {
+		padding: 30px;
+	}
+}

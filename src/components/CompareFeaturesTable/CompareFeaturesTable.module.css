@@ -1,0 +1,55 @@
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table thead,
+.table tbody {
+	display: block;
+}
+
+.table thead {
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.img_box {
+	border-radius: 34px;
+	border: 1px solid #c1c1c1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 16px;
+}
+
+.row_transparent {
+	padding: 36px 0;
+}
+
+.row_fill {
+	padding: 36px 0;
+	background-color: #fbf7ef;
+}
+
+.tick {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-green);
+	padding: 4px;
+	color: #fff;
+	border-radius: 50%;
+}
+
+.false {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-black);
+	padding: 4px;
+	color: #fff;
+	border-radius: 50%;
+}

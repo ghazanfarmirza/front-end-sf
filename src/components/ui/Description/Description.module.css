@@ -1,0 +1,106 @@
+.innerContent h1 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #10292d;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	line-height: 54px;
+}
+
+.innerContent h2 {
+	font-size: 32px;
+	font-weight: 600;
+	color: #10292d;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	line-height: 36px;
+}
+
+.innerContent h3 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #10292d;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	line-height: 36px;
+}
+
+.innerContent p {
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+.descriptionContainer {
+	max-height: 3.6em; /* Adjust this value to control the height of 2 lines */
+	overflow: hidden;
+	line-height: 1.8em; /* Adjust this value to control the line height */
+	display: -webkit-box;
+	-webkit-line-clamp: 3; /* Number of lines to show */
+	-webkit-box-orient: vertical;
+}
+.innerContent .table-responsive {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 32px;
+}
+
+.innerContent table th {
+	font-weight: 600;
+	font-size: 16px;
+	color: #10292d;
+	padding: 16px 0;
+	border-bottom: 1px solid #10292d;
+	border: 1px solid #10292d;
+}
+
+.innerContent table td {
+	font-weight: 400;
+	font-size: 16px;
+	color: #10292d;
+	padding: 16px 10px;
+	border: 1px solid #10292d;
+}
+
+.innerContent ul {
+	list-style: disc;
+	padding: 0 0 0 20px;
+	line-height: 30px;
+}
+
+.innerContent ol {
+	list-style: decimal;
+	padding: 0 0 0 20px;
+	line-height: 25px;
+}
+
+.innerContent a {
+	color: #9abf14;
+	text-decoration: underline;
+}
+
+.innerContent .form {
+	border-radius: 16px;
+	background-color: var(--color-black);
+	padding: 52px 32px;
+	margin: 52px 0;
+}
+
+.innerContent .CheckboxRoot {
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.innerContent .CheckboxIndicator {
+	color: var(--color-black);
+}
+
+.innerContent .Label {
+	color: white;
+	padding-left: 15px;
+	font-size: 15px;
+	line-height: 1.3;
+}

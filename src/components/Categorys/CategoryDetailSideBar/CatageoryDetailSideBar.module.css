@@ -1,0 +1,7 @@
+.link_active {
+	padding: 6px 14px;
+	color: var(--color-black);
+	background-color: #ebf5eb;
+	border-radius: 4px;
+	font-weight: 500;
+}

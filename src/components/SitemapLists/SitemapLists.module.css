@@ -1,0 +1,18 @@
+.list {
+	margin-top: 96px;
+	position: relative;
+}
+
+.list_inner {
+	margin-top: 32px;
+	padding-left: 100px;
+}
+
+.line {
+	width: 50px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	left: 0;
+}

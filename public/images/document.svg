@@ -1,0 +1,27 @@
+<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="41" height="40" fill="#E7E7E7"/>
+<g clip-path="url(#clip0_1425_36219)">
+<rect width="1440" height="10601" transform="translate(-123 -4627)" fill="white"/>
+<g clip-path="url(#clip1_1425_36219)">
+<rect x="-43" y="-49" width="745" height="138" rx="18" fill="#00424B"/>
+<circle cx="4.63232" cy="-58.312" r="78.312" transform="rotate(-90 4.63232 -58.312)" fill="url(#paint0_angular_1425_36219)"/>
+<rect x="0.25" width="40" height="40" fill="url(#pattern0)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1425_36219" transform="scale(0.02)"/>
+</pattern>
+<radialGradient id="paint0_angular_1425_36219" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4.63232 -58.312) rotate(90) scale(78.312)">
+<stop stop-color="#08616D"/>
+<stop offset="1" stop-color="#00424B" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_1425_36219">
+<rect width="1440" height="10601" fill="white" transform="translate(-123 -4627)"/>
+</clipPath>
+<clipPath id="clip1_1425_36219">
+<rect x="-43" y="-49" width="745" height="138" rx="18" fill="white"/>
+</clipPath>
+<image id="image0_1425_36219" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAzklEQVR4nO3VMQ6CQBSE4WmNF7HxAqB38Vq2HsnGi9D/xrgFhWCyLMvbMF8JCWSYtzzJGkIwcpDClk6AojTiIIkboTCPVuLRojCPVuLRorDRoj0Ad+ABHJvc7MAJeI4uv4BzU0GAGzD8uD6ke80EWUQOEozcSDByI/O67C80/Zfst2jkUjTF933XLYJUJwfZSSPdmge7mcP+72DXDFKdHGQnjXTZD55+X79FEG/2XFqpkerkIPO82T+82VcYreqUi2DkIMHIjQSj3Tdiqu8NlXMwvPsnIqQAAAAASUVORK5CYII="/>
+</defs>
+</svg>

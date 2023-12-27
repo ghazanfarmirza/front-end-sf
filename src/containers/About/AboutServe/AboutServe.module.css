@@ -1,0 +1,12 @@
+.wrapper {
+	padding: 104px 0;
+	background: #3a4c66;
+	margin: 104px 0;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		padding: 56px 0;
+		margin: 56px 0;
+	}
+}
